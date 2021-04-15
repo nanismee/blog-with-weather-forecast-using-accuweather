@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Nan's Blog</title>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- css style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!--  JS -->
+	<script src="app.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+</head>
+
+<body>
+	<div id="page">
+		<a href="#" class="js--nav-toggle -nav-toggle"><i></i></a>
+
+		<!-- nav  -->
+		<aside id="aside" role="complementary" class="border js-fullheight">
+
+			<!-- infor -->
+			<h1 id="logo"><a href="index.html">Nan's Blog</a></h1>
+			<img src="images/avt.jpeg" class="rounded mx-auto d-block" style="width: 100px; height: 100px;">
+
+
+			<nav id="main-menu" role="navigation">
+				<ul>
+					<p>Welcome to my blog</p>
+					<li>Email: nanisme312@gmail.com</li>
+					<li>Address:Hanoi, VN</li>
+					<li>Contact: 0968745615</li>
+				</ul>
+			</nav>
+			<!-- weather card -->
+
+			<div class="card text-center">
+				<img src="images/divider.png" class="card-img" alt="..." style="width: 290px;" />
+				<div class="card-header"> Weather Card</div>
+				<div class="card-body" id="weather-cover">
+					<h5 class="card-title">Have a nice day!</h5>
+					<!-- set bg for card based on condition weather-->
+					<section class="cover">
+
+						<!-- user's location  -->
+						<div class="gornji">
+							<h6 id="lokacija" style="padding-top: 10px;"></h6>
+						</div>
+						<!-- current condition -->
+						<div class="temp">
+							<p id="temp-minmax"></p>
+							<!-- temp min - max -->
+							<div class="temp">
+								<p id="temp-minmax"></p>
+							</div>
+						</div>
+
+		</aside>
+
+		<div id="main">
+			<div class="narrow-content">
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<img class="img-responsive" src="images/intro.jpg" style="width: 530px;" alt="">
+					</div>
+					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<h2 class="heading">About Blog</h2>
+						<p>
+							This is blog was created for IWS Assigment 2 by using html, css and javascript languages.
+							I used geolocation to get user position (you need to allow website know your location) and
+							use accuweather api to forecast the weather.
+							Hope you enjoy it!</p>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="narrow-content">
+				<h2 class="heading animate-box" data-animate-effect="fadeInLeft">My Skills</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="icon" style="background-color:#FFD8BE;">
+								<i class=""></i>
+							</div>
+							<div class="text">
+								<h3>UI Design</h3>
+								<p>I have the opportunity to learn and practice skills in the creation and development
+									of software interfaces and use software like Adobe Photoshop, Adobe XD, Figma..</p>
+									<ul>
+										<li>Design user interface for budget application by using
+											AdobeXD <a href="" ><em>See more</em></a> </li>
+										<li>Design user interface for plan-timetable application with SQA team by using Figma
+											<a href="" ><em>See more</em></a> 
+										</li>
+										<li>Design user interface for e-commerce website by using Adobe XD 
+											<a href="" ><em>See more</em></a> 
+										</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="icon" style="background-color:#FFD8BE;">
+								<i class=""></i>
+							</div>
+							<div class="text">
+								<h3>Java</h3>
+								<p>Im familiar with Java through some small projects: </p>
+								<ul>
+									<li>Tic-Tac-Toe by using Java Swing</li>
+									<li>Basic Calculator with axis2, tomcat, java</li>
+									<li>Student management website</li>
+									<li>Chat Box application</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="icon" style="background-color:#FFD8BE;">
+								<i class=""></i>
+							</div>
+							<div class="text">
+								<h3>PHP</h3>
+								<p> beginner with php</p>
+								<ul>
+									<li> an e-commerce website for selling plant (php and mysql)</li>
+									<li>Complete Course: "Learn PHP" from Codecademy <a href=""><em>Certificate</em></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="icon" style="background-color:#FFD8BE;">
+								<i class=""></i>
+							</div>
+							<div class="text">
+								<h3>Python</h3>
+								<p>- Email-spam classification</p>
+								<p>-Third-prize track Beginner++ at Shecodes - hackathon 2020 with Trash
+									classification application using AWS API and Python languague <a href=""><em>Certificate</em></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="narrow-content">
+				<div class="row">
+					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<h1 class="heading-colored">Weather Forcast</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+						<div class="sredina">
+							<div class="swiper-container">
+								<div id="sweeper" class="swiper-wrapper">
+									<div class="swiper-slide"></div>
+								</div>
+							</div>
+							<div id="donji-deo" class="donje"></div>
+						</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Flexslider -->
+		<script src="js/jquery.flexslider-min.js"></script>
+
+
+		<!-- MAIN JS -->
+		<script src="js/main.js"></script>
+</body>
+
+</html>
